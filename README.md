@@ -20,6 +20,8 @@ Enunciado del Examen:
 
 8. **Final fútbol.** (0.5) Cuando uno de los equipos llegue a 5 carga el siguiente nivel.
 
+![alt Escena 1](https://github.com/pmarinr/ExamenDiciembre2016/blob/master/ExamenExtras/escena1.png)
+
 ### Ejercicio 2: Juego Nave ###
 
 9. **Escenario Nave.**(0.5)  Crea una escena llamada Nave y copia el diseño de mas abajo.
@@ -35,6 +37,8 @@ Enunciado del Examen:
 14. **Rotación nave.** (1) Usando la función rigidbody2D.AddTorque(float rotación) crear un script con el que pueda rotar la nave usando las flechas.
 
 15. **Final nave.** (0.5) Cuando la nave llegue a la plataforma final carga el siguiente nivel.
+
+![alt Escena 1](https://github.com/pmarinr/ExamenDiciembre2016/blob/master/ExamenExtras/escena2.png)
 
 ### Ejercicio 3: Juego de Robot ###
 
@@ -71,6 +75,9 @@ using UnityEngine;
 20. **Muerte Robot.** (0.5) Cuando un láser enemigo o un asteroide  toque al jugador se reinicia el nivel.
 
 21. **Final robot.** (0.5) Cuando la puntuación llegue a 5 carga el siguiente nivel.
+
+![alt Escena 1](https://github.com/pmarinr/ExamenDiciembre2016/blob/master/ExamenExtras/escena3.png)
+
 
 > **NOTAS:** 
 
