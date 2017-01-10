@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class porteria : MonoBehaviour {
 
@@ -16,7 +18,9 @@ public class porteria : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		if (goles >= 5) {
+			SceneManager.LoadScene ("Nave");
+		}
 	}
 
 	void OnCollisionEnter2D(Collision2D col){
