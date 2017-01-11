@@ -31,11 +31,15 @@ public class Nave : MonoBehaviour {
 
 			rb.AddTorque (rotacion);
 		}
-
-
 	}
 
 	public void Reiniciar(){
 		SceneManager.LoadScene ("Nave");
+	}
+
+	void OnCollisionEnter2D(Collision2D col){
+		if (col.transform.name == "base2") {
+			SceneManager.LoadScene ("Futbol");
+		}
 	}
 }
