@@ -56,7 +56,7 @@ using UnityEngine;
 
 	public class generadorScript : MonoBehaviour {
 
-        public GameObject[] columna;
+        public GameObject asteroide;
         public float tiempoespera = 3;
         Vector3 posicion;
         float timer = 0;
