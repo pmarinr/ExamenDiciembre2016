@@ -24,7 +24,7 @@ public class Nave : MonoBehaviour {
 
 		if(Input.GetKey(KeyCode.RightArrow)){
 
-			rb.AddTorque (-rotacion);
+			rb.AddTorque (-rotacion); // comentario
 		}
 
 		if(Input.GetKey(KeyCode.LeftArrow)){
